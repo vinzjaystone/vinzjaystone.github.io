@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Your Website Title</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        .header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 32px;
+            margin: 0;
+        }
+
+        .header p {
+            font-size: 18px;
+            margin: 0;
+        }
+
+        .content {
+            padding: 40px 0;
+        }
+
+        .content .container {
+            text-align: center;
+        }
+
+        .portfolio {
+            padding: 40px 0;
+            background-color: #f9f9f9;
+        }
+
+        .portfolio h2 {
+            margin-bottom: 20px;
+        }
+
+        .portfolio .row {
+            margin-top: 20px;
+        }
+
+        .portfolio .four.columns {
+            text-align: center;
+        }
+
+        .portfolio h4 {
+            margin-top: 10px;
+        }
+
+        .contact {
+            padding: 40px 0;
+        }
+
+        .contact form {
+            text-align: center;
+        }
+
+        .contact .row {
+            margin-bottom: 20px;
+        }
+
+        .contact label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .contact input[type="text"],
+        .contact input[type="email"],
+        .contact textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        .contact textarea {
+            height: 120px;
+        }
+
+        .contact input[type="submit"] {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .contact input[type="submit"]:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <h1>Your Name</h1>
+            <p>Subtitle or tagline goes here</p>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="container">
+            <h2>Welcome to My Website</h2>
+            <p>Thank you for visiting my website! I'm excited to share my work and information with you.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquam mi quis massa hendrerit, sit amet luctus ex tincidunt. Sed sed sem ligula. Etiam consequat sem at mi efficitur, nec pharetra turpis suscipit. Donec vestibulum, metus non facilisis tincidunt, lectus orci lobortis ligula, nec fermentum lacus est at mi.</p>
+            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer semper suscipit neque, sed condimentum sapien venenatis vel. Nam aliquet aliquam elit, vitae lacinia mauris accumsan in. Nunc id augue ut felis aliquam fermentum a a justo. Nam dapibus lorem id luctus lacinia. Phasellus rutrum dolor in sem efficitur, non tincidunt sapien vestibulum. Nullam vulputate ipsum quis libero fermentum consequat.</p>
+            <p>Feel free to explore my portfolio section to see some of my recent projects. If you have any questions or would like to get in touch, please use the contact form below. I'd love to hear from you!</p>
+        </div>
+    </div>
+
+    <div class="portfolio">
+        <div class="container">
+            <h2>Portfolio</h2>
+            <div class="row">
+                <div class="four columns">
+                    <img src="path/to/your/image.jpg" alt="Project 1">
+                    <h4>Project 1</h4>
+                    <p>Description of project 1.</p>
+                </div>
+                <!-- Add more project items as needed -->
+            </div>
+        </div>
+    </div>
+
+    <div class="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form>
+                <div class="row">
+                    <div class="six columns">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="six columns">
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="twelve columns">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                </div>
+                <input class="button-primary" type="submit" value="Send Message">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
